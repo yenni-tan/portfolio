@@ -1,0 +1,84 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "Company Directory",
+            "description": "A gallery of employee information that makes it easy to find a coworker and their contact infomration.",
+            "technologies": [
+                "jQuery", 
+                "Fetch API"
+            ],
+            "live_link": "https://yenni-tan.github.io/company-directory/",
+            "github_link":"https://github.com/yenni-tan/company-directory",
+            "image_urls":[
+                "./images/company_directory/company_directory_modal.png",
+                "./images/company_directory/company_directory_hover.png",
+                "./images/company_directory/company_directory_landscape.png",
+                "./images/company_directory/company_directory_search.png",
+                "./images/company_directory/company_directory_square.png"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "Conference Registration Form",
+            "description": "An interactive form to register conference participants.",
+            "technologies": [
+                "jQuery"
+            ],
+            "live_link": "https://yenni-tan.github.io/interactive-form/",
+            "github_link":"https://github.com/yenni-tan/interactive-form",
+            "image_urls":[
+                "./images/interactive_form/interactive_form_main.png",
+                "./images/interactive_form/interactive_form_costs.png",
+                "./images/interactive_form/interactive_form_no_results.png",
+                "./images/interactive_form/interactive_form_search.png"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "List Pagination and Filtering",
+            "description": "A paginated and filterable list of students.",
+            "technologies": [
+                "jQuery"
+            ],
+            "live_link": "https://yenni-tan.github.io/list_pagination_and_filtering/",
+            "github_link":"https://yenni-tan.github.io/list_pagination_and_filtering/",
+            "image_urls":[
+                "./images/pagination_filtering/pagination_filtering_main.png",
+                "./images/pagination_filtering/pagination_filtering_no_results.png",
+                "./images/pagination_filtering/pagination_filtering_search.png"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "Phrase Hunter",
+            "description": "An quick, fun game of guess the phrase before you run out of lives!",
+            "technologies": [
+                "jQuery", 
+                "Fetch API"
+            ],
+            "live_link": "https://yenni-tan.github.io/phrase-hunter/",
+            "github_link":"https://github.com/yenni-tan/phrase-hunter",
+            "image_urls":[
+                "./images/phrase_hunter/phrase_hunter_main.png",
+                "./images/phrase_hunter/phrase_hunter_game_start.png",
+                "./images/phrase_hunter/phrase_hunter_guesses.png"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Random Quote Generator",
+            "description": "Some favorite quotes on demand or on rotation.",
+            "technologies": [
+                "Javascript"
+            ],
+            "live_link": "https://yenni-tan.github.io/random-quote-generator/",
+            "github_link":"https://github.com/yenni-tan/random-quote-generator",
+            "image_urls":[
+                "./images/random_quote/random_quote_main.png",
+                "./images/random_quote/random_quote_lotr.png"
+            ]
+        }
+
+    ]
+}

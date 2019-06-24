@@ -1,0 +1,34 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Yenni Tan
+
+        p.lead.text-light
+          | Full Stack Engineer
+
+        .portfolio-bio
+          p
+            | Motivated full-stack engineer with over 5 years consulting experience in modernizing enterprise web applications, including design, development, and deployment pipelines. Experience empowering Agile teams. Thrives in a collaborative atmosphere. 
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li Angular
+          li HTML
+          li CSS/SCSS
+          li Node.js
+          li .NET Core
+          li Java
+          li React 
+
+        a.button.expanded(href='https://www.linkedin.com/in/yenni-tan/', target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/yenni-tan', target='_blank') GitHub
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio of my work",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yenni-tan/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Yenni Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yenni-tan/portfolio/issues"
+  },
+  "homepage": "https://github.com/yenni-tan/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^1.3.2",
+    "pug": "^2.0.4"
+  }
+}
