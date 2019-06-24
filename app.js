@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-const staticContent = "public";
 const data = require('./data.json');
 const about = require ('./routes/about');
 const projects = require('./routes/projects');
@@ -13,8 +12,8 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    res.locals = data.projects;
-    res.render('index');
+    const projectsData = JSON.parse(JSON.stringify(data));
+    res.render('index', { projects: projectsData.projects });
 });
 
 app.use('/about', about);
@@ -31,5 +30,6 @@ app.get('*', function(req, res){
     res.status(httpStatus.NOT_FOUND).send('Page Not Found');
 });
 
-app.listen(port);
-console.log('listening on http://localhost:3000');
+app.listen(port, () => {
+    console.log('listening on http://localhost:3000');
+});

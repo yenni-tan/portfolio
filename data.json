@@ -11,11 +11,11 @@
             "live_link": "https://yenni-tan.github.io/company-directory/",
             "github_link":"https://github.com/yenni-tan/company-directory",
             "image_urls":[
-                "./images/company_directory/company_directory_modal.png",
-                "./images/company_directory/company_directory_hover.png",
-                "./images/company_directory/company_directory_landscape.png",
-                "./images/company_directory/company_directory_search.png",
-                "./images/company_directory/company_directory_square.png"
+                "/static/images/company-directory/company_directory_main.png",
+                "/static/images/company-directory/company_directory_modal.png",
+                "/static/images/company-directory/company_directory_hover.png",
+                "/static/images/company-directory/company_directory_landscape.png",
+                "/static/images/company-directory/company_directory_search.png"
             ]
         },
         {
@@ -28,14 +28,15 @@
             "live_link": "https://yenni-tan.github.io/interactive-form/",
             "github_link":"https://github.com/yenni-tan/interactive-form",
             "image_urls":[
-                "./images/interactive_form/interactive_form_main.png",
-                "./images/interactive_form/interactive_form_costs.png",
-                "./images/interactive_form/interactive_form_no_results.png",
-                "./images/interactive_form/interactive_form_search.png"
+                "/static/images/interactive-form/interactive_form_main.png",
+                "/static/images/interactive-form/interactive_form_costs.png",
+                "/static/images/interactive-form/interactive_form_no_results.png",
+                "/static/images/interactive-form/interactive_form_search.png"
             ]
         },
         {
             "id": "2",
+            "repo":"pagination-filtering",
             "project_name": "List Pagination and Filtering",
             "description": "A paginated and filterable list of students.",
             "technologies": [
@@ -44,9 +45,9 @@
             "live_link": "https://yenni-tan.github.io/list_pagination_and_filtering/",
             "github_link":"https://yenni-tan.github.io/list_pagination_and_filtering/",
             "image_urls":[
-                "./images/pagination_filtering/pagination_filtering_main.png",
-                "./images/pagination_filtering/pagination_filtering_no_results.png",
-                "./images/pagination_filtering/pagination_filtering_search.png"
+                "/static/images/pagination-filtering/pagination_filtering_main.png",
+                "/static/images/pagination-filtering/pagination_filtering_no_results.png",
+                "/static/images/pagination-filtering/pagination_filtering_search.png"
             ]
         },
         {
@@ -60,9 +61,9 @@
             "live_link": "https://yenni-tan.github.io/phrase-hunter/",
             "github_link":"https://github.com/yenni-tan/phrase-hunter",
             "image_urls":[
-                "./images/phrase_hunter/phrase_hunter_main.png",
-                "./images/phrase_hunter/phrase_hunter_game_start.png",
-                "./images/phrase_hunter/phrase_hunter_guesses.png"
+                "/static/images/phrase-hunter/phrase_hunter_main.png",
+                "/static/images/phrase-hunter/phrase_hunter_game_start.png",
+                "/static/images/phrase-hunter/phrase_hunter_guesses.png"
             ]
         },
         {
@@ -75,8 +76,8 @@
             "live_link": "https://yenni-tan.github.io/random-quote-generator/",
             "github_link":"https://github.com/yenni-tan/random-quote-generator",
             "image_urls":[
-                "./images/random_quote/random_quote_main.png",
-                "./images/random_quote/random_quote_lotr.png"
+                "/static/images/random-quote/random_quote_main.png",
+                "/static/images/random-quote/random_quote_lotr.png"
             ]
         }
 
