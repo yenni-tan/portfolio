@@ -3,7 +3,7 @@
         {
             "id": "0",
             "project_name": "Company Directory",
-            "description": "A gallery of employee information that makes it easy to find a coworker and their contact infomration.",
+            "description": "An easy-to-navigate employee directory.",
             "technologies": [
                 "jQuery", 
                 "Fetch API"
@@ -29,9 +29,9 @@
             "github_link":"https://github.com/yenni-tan/interactive-form",
             "image_urls":[
                 "/static/images/interactive-form/interactive_form_main.png",
+                "/static/images/interactive-form/interactive_form_payment.png",
                 "/static/images/interactive-form/interactive_form_costs.png",
-                "/static/images/interactive-form/interactive_form_no_results.png",
-                "/static/images/interactive-form/interactive_form_search.png"
+                "/static/images/interactive-form/interactive_form_validation.png"
             ]
         },
         {
