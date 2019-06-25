@@ -24,6 +24,9 @@ h1,h2,h3,h4,h5,p{
   .red {
     color: red;
   }
+  .white {
+    color: white !important;
+  }
 
 .round{
   border-radius: 5px;
@@ -34,7 +37,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #333; 
 }
 
 .button:hover{
@@ -61,7 +64,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #422C42;
   color: #fff;
   box-shadow: none !important;
 }
@@ -119,6 +122,16 @@ a:hover{
     margin-bottom: 5px;
   }
 
+  .thumbnail {
+    opacity: 0.8
+  }
+
+  .thumbnail:hover {
+    transition: opacity border .5s ease-in-out;
+    opacity: 1;
+    border: 1px darkgray solid;
+  }
+
   .portfolio-index a{
     color: #222;
   }
@@ -133,6 +146,7 @@ a:hover{
 
 .portfolio-meta{
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 
   .portfolio-meta .button{
