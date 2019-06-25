@@ -6,6 +6,7 @@
             "description": "An easy-to-navigate employee directory.",
             "technologies": [
                 "jQuery", 
+                "Javascript",
                 "Fetch API"
             ],
             "live_link": "https://yenni-tan.github.io/company-directory/",
@@ -23,7 +24,8 @@
             "project_name": "Conference Registration Form",
             "description": "An interactive form to register conference participants.",
             "technologies": [
-                "jQuery"
+                "jQuery",
+                "Javascript"
             ],
             "live_link": "https://yenni-tan.github.io/interactive-form/",
             "github_link":"https://github.com/yenni-tan/interactive-form",
@@ -40,7 +42,8 @@
             "project_name": "List Pagination and Filtering",
             "description": "A paginated and filterable list of students.",
             "technologies": [
-                "jQuery"
+                "jQuery",
+                "Javascript"
             ],
             "live_link": "https://yenni-tan.github.io/list_pagination_and_filtering/",
             "github_link":"https://yenni-tan.github.io/list_pagination_and_filtering/",
@@ -55,8 +58,8 @@
             "project_name": "Phrase Hunter",
             "description": "An quick, fun game of guess the phrase before you run out of lives!",
             "technologies": [
-                "jQuery", 
-                "Fetch API"
+                "jQuery",
+                "Javascript"
             ],
             "live_link": "https://yenni-tan.github.io/phrase-hunter/",
             "github_link":"https://github.com/yenni-tan/phrase-hunter",
