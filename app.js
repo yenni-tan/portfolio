@@ -12,7 +12,7 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    const projectsData = JSON.parse(JSON.stringify(data));
+    const projectsData = data;
     res.render('index', { projects: projectsData.projects });
 });
 
