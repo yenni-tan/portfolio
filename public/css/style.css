@@ -21,6 +21,9 @@ h1,h2,h3,h4,h5,p{
     font-size: 15px;
     color: #666;
   }
+  .red {
+    color: red;
+  }
 
 .round{
   border-radius: 5px;
