@@ -1,0 +1,5 @@
+extends layout.pug
+
+block content 
+    p.error-padding= err.status + ': '  + err.message
+    p.error-padding= err.stack

@@ -15,3 +15,7 @@ Portfolio with information my work
 
     `npm start`
 
+## Custom Styles
+- Opacity and Border transitions for project thumbnails
+- Sidebar background color and font color
+- Metadata padding

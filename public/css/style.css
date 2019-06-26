@@ -165,3 +165,7 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+.error-padding {
+  padding: 20px;
+}
